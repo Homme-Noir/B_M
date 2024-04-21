@@ -22,8 +22,8 @@ int main() {
     Current = CurrentReading / 6400.0;
 
     // Printing out the voltage and current readings
-    printf("Voltage: %.2f V\n", Voltage);
-    printf("Current: %.2f A\n", Current);
+    lcd.printf("Voltage: %.2f V\n", Voltage);
+    lcd.printf("Current: %.2f A\n", Current);
 
     // Returning 0 to indicate successful execution
     return 0;
